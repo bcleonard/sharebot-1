@@ -3,6 +3,7 @@ require('googl')
 
 GOOGLE_API_KEY = ARGV[0]
 IP = ARGV[1]
+ARGV.clear
 
 loop do
         input = gets
