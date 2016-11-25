@@ -17,7 +17,7 @@ loop do
                 $stdout.flush
         rescue Exception => e
                 $stderr.puts e.inspect
-                out = {recipient: sender, message: "Sorry, I don't understand."}.to_json
+                out = {recipient: sender, message: "Send file to me, and I will give you a public URL for you to share to the world."}.to_json
                 $stdout.puts out
                 $stdout.flush
         end
